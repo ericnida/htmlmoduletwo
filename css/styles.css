@@ -1,6 +1,6 @@
 /********** Base styles **********/
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
@@ -8,16 +8,16 @@ body {
 }
 
 h1 {
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 30px;
-    text-align: center;
-    font-size: 175%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 175%;
 }
 
 h3 {
-    position: absolute;
-    right: 0px;
+	position: absolute;
+	right: 0px;
 	top: 0px;
 	border: 1px solid black;
 	border-top: none;
@@ -44,29 +44,29 @@ h3#sushi {
 }
 
 .section {
-  	background-color: #bfbfbf;
-    border: 1px solid black;
-    position: relative;
-    margin-right: 15px;
-    margin-left: auto;
-    margin-bottom: 15px;
-    padding: 20px;
-    padding-top: 35px;
-    overflow: hidden;
- 	min-height: 170px;        
+	background-color: #bfbfbf;
+	border: 1px solid black;
+	position: relative;
+	margin-right: 15px;
+	margin-left: auto;
+	margin-bottom: 15px;
+	padding: 20px;
+	padding-top: 35px;
+	overflow: hidden;
+	min-height: 170px;        
 }
 
 p {
-    width: 90%;
-    margin-right: auto;
-    margin-left: auto;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 /* Simple Responsive Framework. */
 .row {
-  	width: 100%;
-  	margin: 0;
-  	padding: 15px;
+	width: 100%;
+	margin: 0;
+	padding: 15px;
 }
 /********** Large devices only **********/
 @media (min-width: 992px) {
